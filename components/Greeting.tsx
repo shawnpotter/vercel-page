@@ -19,8 +19,8 @@ export default function Greeting()
 						A Software Engineer
 					</h1>
 					<p className='py-4 text-gray-100 max-w-[70%] m-auto'>
-						I'm a recent software development graduate from Green River College 
-						specializing in front-end and full-stack development.
+						I'm a recent software development graduate from Green River College and
+						specialize in front-end and full-stack development.
 					</p>
 					<div className='flex items-center justify-between max-w-xs m-auto py-4'>
 						<div className='rounded-full shadow shadow-black p-6 cursor-pointer hover:scale-110 ease-in duration-300'>
