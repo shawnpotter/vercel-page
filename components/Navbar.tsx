@@ -15,7 +15,7 @@ export default function Navbar()
 	}
 
 	return(
-		<div className='fixed w-full h-20 shadow-xl z-[100]'>
+		<div className='fixed bg-gray-900 w-full h-14 shadow-xl z-[100] md:h-20'>
 			<div className='flex justify-between items-center w-full h-full px-2 2xl:px-16'>
 				<Image 
 					src="" 
@@ -71,16 +71,16 @@ export default function Navbar()
 							<Link href='/'>
 								<li className='py-4 text-sm'>Home</li>
 							</Link>
-							<Link href='/'>
+							<Link href='about'>
 								<li className='py-4 text-sm'>About</li>
 							</Link>
-							<Link href='/'>
+							<Link href='skills'>
 								<li className='py-4 text-sm'>Skills</li>
 							</Link>
-							<Link href='/'>
+							<Link href='projects'>
 								<li className='py-4 text-sm'>Projects</li>
 							</Link>
-							<Link href='/'>
+							<Link href='contact'>
 								<li className='py-4 text-sm'>Contact</li>
 							</Link>
 						</ul>
