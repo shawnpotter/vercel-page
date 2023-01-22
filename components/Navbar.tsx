@@ -3,7 +3,7 @@ import Link from 'next/link'
 import React, { useState } from 'react'
 import { AiOutlineClose, AiOutlineMail, AiOutlineMenu } from 'react-icons/ai'
 import { FaGithub, FaLinkedin } from 'react-icons/fa'
-import { BsPersonLinesFill } from 'react-icons/bs'
+import { BsFillPersonLinesFill } from 'react-icons/bs'
 
 export default function Navbar() {
 	const [nav, setNav] = useState(false)
@@ -93,7 +93,7 @@ export default function Navbar() {
 									<AiOutlineMail/>
 								</div>
 								<div className='rounded-full shadow shadow-black p-3 cursor-pointer hover:scale-105 ease-in duration-300'>
-									<BsPersonLinesFill/>
+									<BsFillPersonLinesFill/>
 								</div>
 							</div>
 						</div>
