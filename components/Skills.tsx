@@ -114,7 +114,7 @@ export default function Skills()
 				</div>
 
 				<h3 className='py-4 text-lg'>
-					Frameworks
+					Frameworks & Libraries
 				</h3>
 				<div className='grid sm:grid-cols-2 lg:grid-cols-4 gap-8'>
 
