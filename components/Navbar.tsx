@@ -5,10 +5,12 @@ import { AiOutlineClose, AiOutlineMail, AiOutlineMenu } from 'react-icons/ai'
 import { FaGithub, FaLinkedin } from 'react-icons/fa'
 import { BsFillPersonLinesFill } from 'react-icons/bs'
 
-export default function Navbar() {
+export default function Navbar() 
+{
 	const [nav, setNav] = useState(false)
 
-	const handleNav = () => {
+	const handleNav = () => 
+	{
 		setNav(!nav)
 	}
 
