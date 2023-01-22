@@ -8,7 +8,7 @@ export default function Greeting() {
 		<div className='max-w-7xl w-full h-full mx-auto p-2 flex justify-center items-center'>
 			<div>
 				<p className='uppercase text-sm tracking-widest text-gray-50'>
-					let's build something together
+					{/* Tagline location */}
 				</p>
 				<h1 className='py-4 text-gray-50'>
 					Hi, I'm Shawn
