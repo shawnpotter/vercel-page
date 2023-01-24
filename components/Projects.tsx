@@ -17,7 +17,7 @@ export default function Projects()
 					<ProjectItem
 						title='Snek Bot'
 						backgroundImg={SnekLogo}
-						stack = 'Node.js, Discord.js'
+						stack = 'Node.js, Discord.js, MongoDB'
 						projectUrl='https://github.com/ShawnPotter/snek-bot' 
 						buttonText='View Repository'
 					/>
@@ -26,6 +26,14 @@ export default function Projects()
 						backgroundImg={PricingApp}
 						stack = {'Next.js, Solidity'}
 						projectUrl={'https://canvas-pricing-app.vercel.app/'} 
+						buttonText='View Page'
+					/>
+
+					<ProjectItem
+						title={'Book Keeper'}
+						backgroundImg={PricingApp}
+						stack = {'Java, Spring Boot, Javascript, Bootstrap 5, MySQL'}
+						projectUrl={''} 
 						buttonText='View Page'
 					/>
 					
