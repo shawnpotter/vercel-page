@@ -11,9 +11,13 @@ export default function Greeting()
 		<div className='w-full h-screen text-center'>
 			<div className='max-w-7xl w-full h-full mx-auto p-2 flex justify-center items-center'>
 				<div>
+
+					{/* Tagline location */}
+{/* 
 					<p className='uppercase text-sm tracking-widest text-gray-50'>
-						{/* Tagline location */}
+						
 					</p>
+ */}
 					<Image className='py-2 mx-auto' src={logoLarge} alt=''/>
 					<h1 className='py-2 text-gray-50'>
 						Software Engineer
@@ -37,12 +41,13 @@ export default function Greeting()
 								<AiOutlineMail className='text-2xl' />
 							</a>
 						</div>
+{/* 						
 						<div className='shadow shadow-black p-5 cursor-pointer hover:scale-105 ease-in duration-300'>
-							{/* This will eventually be a link */}
-							{/* <a href='/' aria-label=""> */}
+							<a href='/' aria-label="">
 								<BsFillPersonLinesFill className='text-2xl' />
-							{/* </a> */}
-						</div>
+							</a>
+						</div> 
+*/}
 					</div>
 				</div>
 			</div>
