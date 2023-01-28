@@ -15,7 +15,7 @@ export default function Navbar()
 	}
 
 	return(
-		<div className='fixed bg-gray-900 w-full h-14 shadow-xl z-[100] md:h-20'>
+		<div className='fixed bg-gray-900 w-full h-14 shadow z-[100] md:h-20'>
 			<div className='flex justify-end items-center w-full h-full px-2 2xl:px-16'>
 				{/* 				
 					<Image 
@@ -30,18 +30,18 @@ export default function Navbar()
 						<Link href='/'>
 							<li className='ml-10 text-sm uppercase hover:border-b'>Home</li>
 						</Link>
-						<Link href='/'>
+						<Link href='/#about'>
 							<li className='ml-10 text-sm uppercase hover:border-b'>About</li>
 						</Link>
-						<Link href='/'>
+						<Link href='/#skills'>
 							<li className='ml-10 text-sm uppercase hover:border-b'>Skills</li>
 						</Link>
-						<Link href='/'>
+						<Link href='/#projects'>
 							<li className='ml-10 text-sm uppercase hover:border-b'>Projects</li>
 						</Link>
-						<Link href='/'>
+						{/* <Link href='/'>
 							<li className='ml-10 text-sm uppercase hover:border-b'>Contact</li>
-						</Link>
+						</Link> */}
 					</ul>
 					<div className='md:hidden'>
 						<AiOutlineMenu onClick={handleNav} size={25}/>
