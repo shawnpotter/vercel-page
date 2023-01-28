@@ -16,11 +16,15 @@ export default function Navbar()
 
 	return(
 		<div className='fixed bg-gray-900 w-full h-14 shadow-xl z-[100] md:h-20'>
-			<div className='flex justify-between items-center w-full h-full px-2 2xl:px-16'>
-				<Image 
-					src="" 
-					alt="" 
-				/>
+			<div className='flex justify-end items-center w-full h-full px-2 2xl:px-16'>
+				{/* 				
+					<Image 
+					src="/../public/assets/navlogo.png" 
+					alt=""
+					width={100}
+					height={100}
+					/> 
+				*/}
 				<div>
 					<ul className='hidden md:flex'>
 						<Link href='/'>
