@@ -75,34 +75,47 @@ export default function Navbar()
 							<Link href='/'>
 								<li className='py-4 text-sm'>Home</li>
 							</Link>
-							<Link href='about'>
+							<Link href='#about'>
 								<li className='py-4 text-sm'>About</li>
 							</Link>
-							<Link href='skills'>
+							<Link href='#skills'>
 								<li className='py-4 text-sm'>Skills</li>
 							</Link>
-							<Link href='projects'>
+							<Link href='#projects'>
 								<li className='py-4 text-sm'>Projects</li>
 							</Link>
+							{/* 
 							<Link href='contact'>
 								<li className='py-4 text-sm'>Contact</li>
 							</Link>
+							 */}
 						</ul>
 						<div className='pt-40'>
 							<p className='uppercase tracking-widest text-white'>Connect With Me</p>
 							<div className='flex items-center justify-between my-4 w-full sm:w-[80%]'>
-								<div className='rounded-full shadow shadow-black p-3 cursor-pointer hover:scale-105 ease-in duration-300'>
-									<FaLinkedin/>
-								</div>
-								<div className='rounded-full shadow shadow-black p-3 cursor-pointer hover:scale-105 ease-in duration-300'>
-									<FaGithub/>
-								</div>
-								<div className='rounded-full shadow shadow-black p-3 cursor-pointer hover:scale-105 ease-in duration-300'>
-									<AiOutlineMail/>
-								</div>
+								
+								<Link href='https://www.linkedin.com/in/shawn-potter/'>
+									<div className='rounded-full shadow shadow-black p-3 cursor-pointer hover:scale-105 ease-in duration-300'>
+										<FaLinkedin/>
+									</div>
+								</Link>
+
+								<Link href='https://github.com/shawnpotter'>
+									<div className='rounded-full shadow shadow-black p-3 cursor-pointer hover:scale-105 ease-in duration-300'>
+										<FaGithub/>
+									</div>
+								</Link>
+
+								<Link href='mailto:shawnpotter.inquires@gmail.com'>
+									<div className='rounded-full shadow shadow-black p-3 cursor-pointer hover:scale-105 ease-in duration-300'>
+										<AiOutlineMail/>
+									</div>
+								</Link>
+{/* 								
 								<div className='rounded-full shadow shadow-black p-3 cursor-pointer hover:scale-105 ease-in duration-300'>
 									<BsFillPersonLinesFill/>
 								</div>
+ */}
 							</div>
 						</div>
 					</div>
