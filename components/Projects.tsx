@@ -2,6 +2,7 @@ import Image from 'next/image'
 import React from 'react'
 import SnekLogo from '../public/assets/snek.png'
 import PricingApp from '../public/assets/pricingapp.png'
+import BookKeeper from '../public/assets/bookkeeper.png'
 import Link from 'next/link'
 import ProjectItem from './projects/ProjectItem'
 
@@ -15,11 +16,13 @@ export default function Projects()
 				<div className='grid md:grid-cols-2 gap-8'>
 				
 					<ProjectItem
-						title='Snek Bot'
+						title='S.N.E.K. Bot'
 						backgroundImg={SnekLogo}
 						stack = 'Node.js, Discord.js, MongoDB'
 						projectUrl='https://github.com/ShawnPotter/snek-bot' 
 						buttonText='View Repository'
+						altText=''
+						ariaLabel=''
 					/>
 					<ProjectItem
 						title={'Canvas Pricing App'}
@@ -27,14 +30,18 @@ export default function Projects()
 						stack = {'Next.js, Solidity'}
 						projectUrl={'https://canvas-pricing-app.vercel.app/'} 
 						buttonText='View Page'
+						altText=''
+						ariaLabel=''
 					/>
 
 					<ProjectItem
 						title={'Book Keeper'}
-						backgroundImg={PricingApp}
+						backgroundImg={BookKeeper}
 						stack = {'Java, Spring Boot, Javascript, Bootstrap 5, MySQL'}
 						projectUrl={''} 
-						buttonText='View Page'
+						buttonText='Request Repository Access'
+						altText=''
+						ariaLabel=''
 					/>
 					
 				</div>
