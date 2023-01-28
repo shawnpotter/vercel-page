@@ -10,8 +10,8 @@ import {
 export default function Skills() 
 {
 	return(
-		<div className='w-full lg:h-screen p-5'>
-			<div className='max-w-7xl mx-auto flex flex-col justify-center h-full'>
+		<div id='skills' className='w-full lg:h-screen p-5'>
+			<div className='max-w-7xl py-16 mx-auto flex flex-col justify-center h-full'>
 				
 				<h2 className='py-4'>
 					Skills
@@ -172,7 +172,7 @@ export default function Skills()
 							</div>
 						</div>
 					</div>
-
+{/* 
 					<div className='p-2 shadow shadow-black  hover:scale-105 ease-in duration-300'>
 						<div className='grid grid-cols-2 gap-4 justify-center items-center'>
 							<div className='m-auto'>
@@ -183,7 +183,7 @@ export default function Skills()
 							</div>
 						</div>
 					</div>
-
+ */}
 					<div className='p-2 shadow shadow-black  hover:scale-105 ease-in duration-300'>
 						<div className='grid grid-cols-2 gap-4 justify-center items-center'>
 							<div className='m-auto'>
@@ -206,6 +206,7 @@ export default function Skills()
 						</div>
 					</div>
 
+					{/* 					
 					<div className='p-2 shadow shadow-black  hover:scale-105 ease-in duration-300'>
 						<div className='grid grid-cols-2 gap-4 justify-center items-center'>
 							<div className='m-auto'>
@@ -215,7 +216,8 @@ export default function Skills()
 								<p className='text-xl'>GraphQL</p>
 							</div>
 						</div>
-					</div>
+					</div> 
+					*/}
 
 
 				</div>
