@@ -9,9 +9,9 @@ import ProjectItem from './projects/ProjectItem'
 export default function Projects()
 {
 	return  (
-		<div className='w-full'>
+		<div id='projects' className='w-full'>
 			<div className='max-w-7xl mx-auto px-2 py-16'>
-				<h2 className='uppercase py-2'>Projects</h2>
+				<h2 className='py-4'>Projects</h2>
 				
 				<div className='grid md:grid-cols-2 gap-8'>
 				
@@ -38,7 +38,7 @@ export default function Projects()
 						title={'Book Keeper'}
 						backgroundImg={BookKeeper}
 						stack = {'Java, Spring Boot, Javascript, Bootstrap 5, MySQL'}
-						projectUrl={''} 
+						projectUrl={'mailto:shawnpotter.inquires@gmail.com'} 
 						buttonText='Request Repository Access'
 						altText=''
 						ariaLabel=''
