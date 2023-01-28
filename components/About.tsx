@@ -3,8 +3,8 @@ import React from 'react'
 export default function About()
 {
 	return(
-		<div className='w-full md:h-screen p-5 items-center pb-16'>
-			<div className='max-w-7xl m-auto md:grid grid-cols-2 gap-8'>
+		<div id='about' className='w-full md:h-screen p-5 items-center'>
+			<div className='max-w-7xl pt-20 m-auto md:grid grid-cols-2 gap-8'>
 				<div className='col-span-2'>
 					<h2 className='py-4'>
 						About Me
