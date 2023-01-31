@@ -1,10 +1,10 @@
 import React from 'react'
 import { 
-	IoLogoAngular, IoLogoCss3, IoLogoHtml5, IoLogoJavascript, IoLogoNodejs, IoLogoReact, IoLogoSass 
+	IoLogoCss3, IoLogoHtml5, IoLogoJavascript, IoLogoNodejs, IoLogoReact, IoLogoSass 
 } from 'react-icons/io5'
 import { FaJava } from 'react-icons/fa'
 import { 
-	SiBootstrap, SiCsharp, SiDocker, SiGithub, SiGraphql, SiHibernate, SiJetbrains, SiJquery, SiMongodb, SiMysql, SiNextdotjs, SiPhp, SiPostman, SiSpring, SiTailwindcss, SiTypescript, SiVisualstudio, SiVisualstudiocode 
+	SiBootstrap, SiCsharp, SiDocker, SiGithub, SiHibernate, SiJetbrains, SiJquery, SiMongodb, SiMysql, SiNextdotjs, SiPhp, SiPostman, SiPython, SiSpring, SiTailwindcss, SiTypescript, SiVisualstudio, SiVisualstudiocode 
 } from 'react-icons/si'
 
 export default function Skills() 
@@ -96,6 +96,17 @@ export default function Skills()
 							</div>
 							<div>
 								<p className='text-xl'>C#</p>
+							</div>
+						</div>
+					</div>
+
+					<div className='p-2 shadow shadow-black  hover:scale-105 ease-in duration-300'>
+						<div className='grid grid-cols-2 gap-4 justify-center items-center'>
+							<div className='m-auto'>
+								<SiPython size={50} color='#FFD342'/>
+							</div>
+							<div>
+								<p className='text-xl'>Python</p>
 							</div>
 						</div>
 					</div>
@@ -334,7 +345,7 @@ export default function Skills()
 
 				</div>
 
-			</div>
+			</div>		
 		</div>
 	)
 }
