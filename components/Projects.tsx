@@ -1,9 +1,7 @@
-import Image from 'next/image'
 import React from 'react'
 import SnekLogo from '../public/assets/snek.png'
 import PricingApp from '../public/assets/pricingapp.png'
 import BookKeeper from '../public/assets/bookkeeper.png'
-import Link from 'next/link'
 import ProjectItem from './projects/ProjectItem'
 
 export default function Projects()
