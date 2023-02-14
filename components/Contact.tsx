@@ -7,7 +7,7 @@ export default function Contact() {
 	const [state, handleSubmit] = useForm(process.env.NEXT_PUBLIC_FORM as string)
 	if (state.succeeded) {
 		return (
-			<div>
+			<div id='contact'>
 				<div className='flex justify-center py-20'>
 					<h2>Thank You For Messaging Me!</h2>
 				</div>
