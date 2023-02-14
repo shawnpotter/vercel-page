@@ -1,8 +1,6 @@
-import Link from 'next/link'
 import React from 'react'
 import { AiOutlineMail } from 'react-icons/ai'
 import { FaGithub, FaLinkedin } from 'react-icons/fa'
-import { HiOutlineChevronDoubleUp } from 'react-icons/hi'
 import { useForm, ValidationError } from '@formspree/react';
 
 export default function Contact() {
@@ -13,18 +11,11 @@ export default function Contact() {
 				<div className='flex justify-center py-20'>
 					<h2>Thank You For Messaging Me!</h2>
 				</div>
-				<div className='flex justify-center py-12'>
-					<Link href='/'>
-						<div className='shadow shadow-black p-4 cursor-pointer hover:scale-110 ease-in duration-300'>
-							<HiOutlineChevronDoubleUp size={30} />
-						</div>
-					</Link>
-				</div>
 			</div>
 		)
 	}
   return (
-	<div className='w-full lg:h-screen'>
+	<div id='contact' className='w-full lg:h-5/6'>
 		<div className='max-w-[1240p] m-auto px-2 py-16 w-full'>
 			<h2 className='py-4'>Contact Me</h2>
 			<div className='grid lg:grid-cols-5 gap-8'>
@@ -115,17 +106,10 @@ export default function Contact() {
 									errors={state.errors}
 								/>
 							</div>
-							<button className='w-full p-4 mt-4 text-gray-100' type='submit' disabled={state.submitting}>Send Message</button>
+							<button className='w-full p-4 mt-4 text-white disabled:shadow shadow-black uppercase bg-gradient-to-r from-blue-800 to-blue-500' type='submit' disabled={state.submitting}>Send Message</button>
 						</form>
 					</div>
 				</div>
-			</div>
-			<div className='flex justify-center py-12'>
-				<Link href='/'>
-					<div className='shadow shadow-black p-4 cursor-pointer hover:scale-110 ease-in duration-300'>
-						<HiOutlineChevronDoubleUp size={30} />
-					</div>
-				</Link>
 			</div>
 		</div>
 	</div>

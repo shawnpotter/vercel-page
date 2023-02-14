@@ -3,7 +3,7 @@ import Link from 'next/link'
 import React, { useState } from 'react'
 import { AiOutlineClose, AiOutlineMail, AiOutlineMenu } from 'react-icons/ai'
 import { FaGithub, FaLinkedin } from 'react-icons/fa'
-//import { BsFillPersonLinesFill } from 'react-icons/bs'
+/* import { BsFillPersonLinesFill } from 'react-icons/bs' */
 
 export default function Navbar() 
 {
@@ -39,9 +39,9 @@ export default function Navbar()
 						<Link href='/#projects'>
 							<li className='ml-10 text-sm uppercase hover:border-b'>Projects</li>
 						</Link>
-						{/* <Link href='/'>
+						<Link href='/#contact'>
 							<li className='ml-10 text-sm uppercase hover:border-b'>Contact</li>
-						</Link> */}
+						</Link>
 					</ul>
 					<div className='md:hidden'>
 						<AiOutlineMenu onClick={handleNav} size={25}/>

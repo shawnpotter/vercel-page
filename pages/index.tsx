@@ -5,6 +5,8 @@ import About from '../components/About'
 import Skills from '../components/Skills'
 import Projects from '../components/Projects'
 import Contact from '../components/Contact'
+import Link from 'next/link'
+import { HiOutlineChevronDoubleUp } from 'react-icons/hi'
 
 
 export default function Home() 
@@ -22,6 +24,13 @@ export default function Home()
       <Skills/>
       <Projects/>
       <Contact/>
+      <div className='flex justify-center pt-6 pb-12'>
+				<Link href='/'>
+					<div className='shadow shadow-black p-4 cursor-pointer hover:scale-110 ease-in duration-300'>
+						<HiOutlineChevronDoubleUp size={30} />
+					</div>
+				</Link>
+			</div>
     </div>
   )
 }
