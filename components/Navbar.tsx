@@ -3,7 +3,7 @@ import Link from 'next/link'
 import React, { useState } from 'react'
 import { AiOutlineClose, AiOutlineMail, AiOutlineMenu } from 'react-icons/ai'
 import { FaGithub, FaLinkedin } from 'react-icons/fa'
-import { BsFillPersonLinesFill } from 'react-icons/bs'
+/* import { BsFillPersonLinesFill } from 'react-icons/bs' */
 
 export default function Navbar() 
 {
