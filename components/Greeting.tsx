@@ -2,7 +2,7 @@ import React from 'react';
 import Image from 'next/image';
 import logoLarge from '../public/assets/shawnpotter.png'
 import { AiOutlineMail } from 'react-icons/ai';
-import { BsFillPersonLinesFill } from 'react-icons/bs';
+/* import { BsFillPersonLinesFill } from 'react-icons/bs'; */
 import { FaGithub, FaLinkedin } from 'react-icons/fa';
 
 export default function Greeting() 
