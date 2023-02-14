@@ -15,7 +15,7 @@ export default function Contact() {
 		)
 	}
   return (
-	<div className='w-full lg:h-screen'>
+	<div className='w-full lg:h-5/6'>
 		<div className='max-w-[1240p] m-auto px-2 py-16 w-full'>
 			<h2 className='py-4'>Contact Me</h2>
 			<div className='grid lg:grid-cols-5 gap-8'>
