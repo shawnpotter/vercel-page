@@ -106,7 +106,7 @@ export default function Contact() {
 									errors={state.errors}
 								/>
 							</div>
-							<button className='w-full p-4 mt-4 text-gray-100' type='submit' disabled={state.submitting}>Send Message</button>
+							<button className='w-full p-4 mt-4 text-white disabled:shadow shadow-black uppercase bg-gradient-to-r from-blue-800 to-blue-500' type='submit' disabled={state.submitting}>Send Message</button>
 						</form>
 					</div>
 				</div>
