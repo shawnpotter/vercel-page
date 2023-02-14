@@ -1,8 +1,6 @@
-import Link from 'next/link'
 import React from 'react'
 import { AiOutlineMail } from 'react-icons/ai'
 import { FaGithub, FaLinkedin } from 'react-icons/fa'
-import { HiOutlineChevronDoubleUp } from 'react-icons/hi'
 import { useForm, ValidationError } from '@formspree/react';
 
 export default function Contact() {
@@ -12,13 +10,6 @@ export default function Contact() {
 			<div>
 				<div className='flex justify-center py-20'>
 					<h2>Thank You For Messaging Me!</h2>
-				</div>
-				<div className='flex justify-center py-12'>
-					<Link href='/'>
-						<div className='shadow shadow-black p-4 cursor-pointer hover:scale-110 ease-in duration-300'>
-							<HiOutlineChevronDoubleUp size={30} />
-						</div>
-					</Link>
 				</div>
 			</div>
 		)
@@ -119,13 +110,6 @@ export default function Contact() {
 						</form>
 					</div>
 				</div>
-			</div>
-			<div className='flex justify-center py-12'>
-				<Link href='/'>
-					<div className='shadow shadow-black p-4 cursor-pointer hover:scale-110 ease-in duration-300'>
-						<HiOutlineChevronDoubleUp size={30} />
-					</div>
-				</Link>
 			</div>
 		</div>
 	</div>
