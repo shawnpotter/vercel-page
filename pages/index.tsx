@@ -24,7 +24,7 @@ export default function Home()
       <Skills/>
       <Projects/>
       <Contact/>
-      <div className='flex justify-center py-12'>
+      <div className='flex justify-center pt-6 pb-12'>
 				<Link href='/'>
 					<div className='shadow shadow-black p-4 cursor-pointer hover:scale-110 ease-in duration-300'>
 						<HiOutlineChevronDoubleUp size={30} />
