@@ -1,12 +1,31 @@
 import React from 'react'
-import { 
-	IoLogoCss3, IoLogoHtml5, IoLogoJavascript, IoLogoNodejs, IoLogoReact, IoLogoSass 
-} from 'react-icons/io5'
-import { FaJava } from 'react-icons/fa'
-import { 
-	SiBootstrap, SiCsharp, SiDocker, SiGithub, SiHibernate, SiJetbrains, SiJquery, SiMongodb, SiMysql, SiNextdotjs, SiPhp, SiPostman, SiPython, SiSpring, SiTailwindcss, SiTypescript, SiVisualstudio, SiVisualstudiocode 
-} from 'react-icons/si'
 import SkillItem from './skills/SkillItem'
+import Css3Logo from '../public/assets/svg/css3-original.svg'
+import JSLogo from '../public/assets/svg/javascript-original.svg'
+import HtmlLogo from '../public/assets/svg/html5-original.svg'
+import JavaLogo from '../public/assets/svg/java-original.svg'
+import TsLogo from '../public/assets/svg/typescript-original.svg'
+import PhpLogo from '../public/assets/svg/php-original.svg'
+import CsLogo from '../public/assets/svg/csharp-original.svg'
+import PythonLogo from '../public/assets/svg/python-original.svg'
+import ReactLogo from '../public/assets/svg/react-original.svg'
+import NextLogo from '../public/assets/svg/nextjs-original.svg'
+import NodeLogo from '../public/assets/svg/nodejs-original.svg'
+import JqLogo from '../public/assets/svg/jquery-original.svg'
+import SassLogo from '../public/assets/svg/sass-original.svg'
+import SpringLogo from '../public/assets/svg/spring-original.svg'
+import TailwindLogo from '../public/assets/svg/tailwindcss-plain.svg'
+import BootstrapLogo from '../public/assets/svg/bootstrap-original.svg'
+import MysqlLogo from '../public/assets/svg/mysql-original.svg'
+import MongodbLogo from '../public/assets/svg/mongodb-original.svg'
+import HibernateLogo from '../public/assets/svg/hibernate-icon.svg'
+import VisualStudioLogo from '../public/assets/svg/visualstudio-plain.svg'
+import VscodeLogo from '../public/assets/svg/vscode-original.svg'
+import JetbrainsLogo from '../public/assets/svg/jetbrains-original.svg'
+import GithubLogo from '../public/assets/svg/github-original.svg'
+import PostmanLogo from '../public/assets/svg/getpostman-icon.svg'
+import DockerLogo from '../public/assets/svg/docker-plain.svg'
+
 
 export default function Skills() 
 {
@@ -23,44 +42,44 @@ export default function Skills()
 				</h3>
 				<div className='grid sm:grid-cols-2 lg:grid-cols-4 gap-8'>
 					<SkillItem
-						icon={IoLogoHtml5}
-						colorString="#E44D26"
-						name="HTML" 
+						icon={HtmlLogo}
+						name='HTML5'
+						altText='HTML 5 Icon'
 					/>
 					<SkillItem
-						icon={IoLogoCss3}
-						colorString="#264DE4"
-						name="CSS" 
+						icon={Css3Logo}
+						name='CSS'
+						altText='Cascading Style Sheets 3 Icon'
 					/>
 					<SkillItem
-						icon={IoLogoJavascript}
-						colorString="Gold"
-						name="JavaScript" 
+						icon={JSLogo}
+						name='JavaScript'
+						altText='JavaScript Icon'
 					/>
 					<SkillItem
-						icon={FaJava}
-						colorString="#5382A1"
-						name="Java" 
+						icon={JavaLogo}
+						name='Java'
+						altText='Java icon'
 					/>
 					<SkillItem
-						icon={SiTypescript}
-						colorString="#3178C6"
-						name="TypeScript" 
+						icon={TsLogo}
+						name='TypeScript'
+						altText='TypeScript logo'
 					/>
 					<SkillItem
-						icon={SiPhp}
-						colorString="#4f5b93"
-						name="PHP" 
+						icon={PhpLogo}
+						name='PHP'
+						altText='PHP logo'
 					/>
 					<SkillItem
-						icon={SiCsharp}
-						colorString="#189F20"
-						name="C#" 
+						icon={CsLogo}
+						name='C#'
+						altText='C Sharp logo'
 					/>
 					<SkillItem
-						icon={SiPython}
-						colorString="#FFD342"
-						name="Python" 
+						icon={PythonLogo}
+						name='Python'
+						altText='Python logo'
 					/>
 				</div>
 
@@ -69,57 +88,57 @@ export default function Skills()
 				</h3>
 				<div className='grid sm:grid-cols-2 lg:grid-cols-4 gap-8'>
 					<SkillItem
-						icon={IoLogoReact}
-						colorString="SkyBlue"
-						name="React" 
+						icon={ReactLogo}
+						name='React.js'
+						altText='React logo'
 					/>
 					<SkillItem
-						icon={SiNextdotjs}
-						colorString="White"
-						name="Next.js" 
+						icon={NextLogo}
+						name='Next.js'
+						altText='Next.js logo'
 					/>
 					<SkillItem
-						icon={IoLogoNodejs}
-						colorString="#84CE24"
-						name="Node.js" 
+						icon={NodeLogo}
+						name='Node.js'
+						altText='Node.js logo'
 					/>
 					<SkillItem
-						icon={SiJquery}
-						colorString="#0868AB"
-						name="jQuery" 
+						icon={JqLogo}
+						name='jQuery'
+						altText='jQuery Logo'
 					/>
 					<SkillItem
-						icon={IoLogoSass}
-						colorString="#CD6799"
-						name="SASS" 
+						icon={SassLogo}
+						name='SASS'
+						altText='SASS logo'
 					/>
 					<SkillItem
-						icon={SiSpring}
-						colorString="#6eb442"
-						name="Spring" 
+						icon={SpringLogo}
+						name='Spring'
+						altText='Spring Framework logo'
 					/>
 {/* 
 					<SkillItem
-						icon={IoLogoAngular}
-						colorString="#DD0031"
-						name="Angular" 
+						icon={AngularLogo}
+						name='AngularJS'
+						altText='Angular logo'
 					/>
- */}
- 					<SkillItem
-						icon={SiTailwindcss}
-						colorString="#38BDF8"
-						name="TailwindCSS" 
+*/}
+					<SkillItem
+						icon={TailwindLogo}
+						name='TailwindCSS'
+						altText='Tailwind CSS logo'
 					/>
 					<SkillItem
-						icon={SiBootstrap}
-						colorString="#8012F1"
-						name="Bootstrap" 
+						icon={BootstrapLogo}
+						name='Bootstrap 5'
+						altText='Bootstrap 5 logo'
 					/>
 {/* 
 					<SkillItem
-						icon={SiGraphql}
-						colorString="DeepPink"
-						name="GraphQL" 
+						icon={GraphqlLogo}
+						name='GraphQL'
+						altText='GraphQL logo'
 					/>
 */}
 				</div>
@@ -128,57 +147,56 @@ export default function Skills()
 					Databases
 				</h3>
 				<div className='grid sm:grid-cols-2 lg:grid-cols-4 gap-8'>
-
 					<SkillItem
-						icon={SiMysql}
-						colorString="#00618A"
-						name="MySQL" 
+						icon={MysqlLogo}
+						name='MySQL'
+						altText='MySQL database logo'
 					/>
 					<SkillItem
-						icon={SiMongodb}
-						colorString="#53B441"
-						name="MongoDB" 
+						icon={MongodbLogo}
+						name='MongoDB'
+						altText='Mongo Database logo'
 					/>
 					<SkillItem
-						icon={SiHibernate}
-						colorString="#BCAE79"
-						name="Hibernate" 
+						icon={HibernateLogo}
+						name='Hibernate'
+						altText='Hibernate database logo'
 					/>
-				</div>
-
+ 				</div>
+				
 				<h3 className='py-4 text-lg'>
 					Technologies
 				</h3>
 				<div className='grid sm:grid-cols-2 lg:grid-cols-4 gap-8'>
 					<SkillItem
-						icon={SiVisualstudio}
-						colorString="#875FC6"
-						name="Visual Studio" 
+						icon={VisualStudioLogo}
+						name='Visual Studio'
+						altText='logo for Visual Studio'
 					/>
 					<SkillItem
-						icon={SiVisualstudiocode}
-						colorString="#25AEF3"
-						name="VS Code" 
+						icon={VscodeLogo}
+						name='VS Code'
+						altText='logo for Visual Studio Code'
 					/>
 					<SkillItem
-						icon={SiJetbrains}
-						colorString="DeepPink"
-						name="JetBrains" 
+						icon={JetbrainsLogo}
+						name='Jetbrains'
+						altText='logo for Jetbrains IDE'
 					/>
 					<SkillItem
-						icon={SiGithub}
-						colorString="White"
-						name="GitHub" 
+						icon={GithubLogo}
+						name='GitHub'
+						altText='logo for GitHub'
 					/>
 					<SkillItem
-						icon={SiPostman}
-						colorString="#FD6C35"
-						name="Postman" 
+						icon={PostmanLogo}
+						name='Postman'
+						altText='logo for Postman'
 					/>
 					<SkillItem
-						icon={SiDocker}
-						colorString="DodgerBlue"
-						name="Docker" 
+						icon={DockerLogo}
+						name='Docker'
+						altText='logo for Docker'
 					/>
 				</div>
 			</div>		
