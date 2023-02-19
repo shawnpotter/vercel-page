@@ -17,7 +17,7 @@ const SkillItem: React.FC<Props> =({icon, name, altText}) =>
 					<Image src={icon} alt={altText} width={50} height={50}/>
 				</div>
 				<div className='m-auto'>
-					<p className='font-semibold md:text-xl'>{name}</p>
+					<p className='font-semibold text-center text-xs xs:text-sm md:text-xl'>{name}</p>
 				</div>
 			</div>
 		</div>
