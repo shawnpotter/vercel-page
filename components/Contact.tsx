@@ -15,8 +15,8 @@ export default function Contact() {
 		)
 	}
   return (
-	<div id='contact' className='w-full lg:h-5/6'>
-		<div className='m-auto max-w-7xl px-2 py-16 w-full'>
+	<div id='contact' className='w-full lg:h-5/6 p-5'>
+		<div className='mx-auto max-w-7xl py-16 flex flex-col justify-center h-full'>
 			<h2 className='py-4'>Contact Me</h2>
 			<div className='grid lg:grid-cols-5 gap-8 text-black'>
 				{/* Left */}

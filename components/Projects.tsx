@@ -8,7 +8,7 @@ export default function Projects()
 {
 	return  (
 		<div id='projects' className='w-full lg:h-full p-5'>
-			<div className='max-w-7xl mx-auto px-2 py-16 flex flex-col justify-center h-full'>
+			<div className='max-w-7xl mx-auto py-16 flex flex-col justify-center h-full'>
 				<h2 className='py-4'>Projects</h2>
 				
 				<div className='grid md:grid-cols-2 gap-8'>
