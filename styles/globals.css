@@ -11,7 +11,7 @@ html
 {
   body 
   {
-    @apply bg-gray-800 text-gray-100 tracking-wide
+    @apply bg-[#463f3a] text-gray-100 tracking-wide
   }
   h1, h2, h3, h4, h5, h6 
   {
@@ -33,6 +33,6 @@ html
   }
   button 
   {
-    @apply shadow shadow-black uppercase bg-gradient-to-r from-blue-800 to-blue-500 text-white
+    @apply shadow shadow-black uppercase text-black
   }
 }

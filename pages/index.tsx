@@ -26,7 +26,7 @@ export default function Home()
       <Contact/>
       <div className='flex justify-center pt-6 pb-12'>
 				<Link href='/'>
-					<div className='shadow shadow-black p-4 cursor-pointer hover:scale-110 ease-in duration-300'>
+					<div className='bg-[#BCB8B1] text-black rounded shadow-md shadow-gray-900 p-4 cursor-pointer hover:scale-105 hover:bg-[#B2B2BD] ease-in duration-300'>
 						<HiOutlineChevronDoubleUp size={30} />
 					</div>
 				</Link>

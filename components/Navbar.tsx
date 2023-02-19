@@ -15,7 +15,7 @@ export default function Navbar()
 	}
 
 	return(
-		<div className='fixed bg-gray-900 w-full h-14 shadow z-[100] md:h-20'>
+		<div className='fixed bg-[#8a817c] w-full h-14 shadow z-[100] md:h-20'>
 			<div className='flex justify-end items-center w-full h-full px-2 2xl:px-16'>
 				{/* 				
 					<Image 
@@ -53,15 +53,15 @@ export default function Navbar()
 				<div 
 					className={
 						nav 
-							? 'fixed right-0 top-0 w-[75%] sm:w-[65%] md:w-[45%] h-screen bg-gray-800 p-10 ease-in duration-500' 
-							: 'fixed right-[-100%] top-0 p-10 ease-in duration-500'
+							? 'fixed left-0 top-0 w-[75%] sm:w-[65%] md:w-[45%] h-screen bg-[#8A817C] p-10 ease-in duration-500' 
+							: 'fixed left-[-100%] top-0 p-10 ease-in duration-500'
 					}>
 					<div className='flex w-full items-center justify-between'>
 						<Image 
 							src=''
 							alt=''
 						/>
-						<div onClick={handleNav} className='rounded-full shadow shadow-black p-3 cursor-pointer'>
+						<div onClick={handleNav} className='bg-[#BCB8B1] rounded-xl shadow shadow-gray-900 p-3 cursor-pointer'>
 							<AiOutlineClose size={25} />
 						</div>
 					</div>
@@ -91,23 +91,23 @@ export default function Navbar()
 							 */}
 						</ul>
 						<div className='pt-40'>
-							<p className='uppercase tracking-widest text-white'>Connect With Me</p>
+							<p className='uppercase tracking-widest text-white font-semibold'>Connect With Me</p>
 							<div className='flex items-center justify-between my-4 w-full sm:w-[80%]'>
 								
 								<Link href='https://www.linkedin.com/in/shawn-potter/'>
-									<div className='rounded-full shadow shadow-black p-3 cursor-pointer hover:scale-105 ease-in duration-300'>
+									<div className='bg-[#BCB8B1] rounded-xl text-black shadow shadow-gray-900 p-3 cursor-pointer hover:scale-105 hover:bg-[#B2B2BD] ease-in duration-300'>
 										<FaLinkedin/>
 									</div>
 								</Link>
 
 								<Link href='https://github.com/shawnpotter'>
-									<div className='rounded-full shadow shadow-black p-3 cursor-pointer hover:scale-105 ease-in duration-300'>
+									<div className='bg-[#BCB8B1] rounded-xl text-black shadow shadow-gray-900 p-3 cursor-pointer hover:scale-105 hover:bg-[#B2B2BD] ease-in duration-300'>
 										<FaGithub/>
 									</div>
 								</Link>
 
 								<Link href='mailto:shawnpotter.inquires@gmail.com'>
-									<div className='rounded-full shadow shadow-black p-3 cursor-pointer hover:scale-105 ease-in duration-300'>
+									<div className='bg-[#BCB8B1] rounded-xl text-black shadow shadow-gray-900 p-3 cursor-pointer hover:scale-105 hover:bg-[#B2B2BD] ease-in duration-300'>
 										<AiOutlineMail/>
 									</div>
 								</Link>
