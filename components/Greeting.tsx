@@ -26,19 +26,19 @@ export default function Greeting()
 						I specialize in front-end and full-stack development.
 					</p>
 					<div className='flex items-center justify-between max-w-xs m-auto py-4'>
-						<div className='shadow shadow-black p-5 cursor-pointer hover:scale-110 ease-in duration-300'>
+						<div className='bg-[#BCB8B1] shadow-md shadow-gray-900 rounded-xl p-5 cursor-pointer hover:scale-105 hover:bg-[#B2B2BD] ease-in duration-300'>
 							<a href='https://www.linkedin.com/in/shawn-potter/' aria-label="Link to Shawn's LinkedIn page">
-								<FaLinkedin className='text-2xl' />
+								<FaLinkedin className='text-2xl' color='black' />
 							</a>
 						</div>
-						<div className='shadow shadow-black p-5 cursor-pointer hover:scale-105 ease-in duration-300'>
+						<div className='bg-[#BCB8B1] shadow-md shadow-gray-900 rounded-xl p-5 cursor-pointer hover:scale-105 hover:bg-[#B2B2BD] ease-in duration-300'>
 							<a href='https://github.com/shawnpotter' aria-label="Link to Shawn's GitHub page">
-								<FaGithub className='text-2xl' />
+								<FaGithub className='text-2xl' color='black' />
 							</a>
 						</div>
-						<div className='shadow shadow-black p-5 cursor-pointer hover:scale-105 ease-in duration-300'>
+						<div className='bg-[#BCB8B1] shadow-md shadow-gray-900 rounded-xl p-5 cursor-pointer hover:scale-105 hover:bg-[#B2B2BD] ease-in duration-300'>
 							<a href='mailto:shawnpotter.inquires@gmail.com' aria-label="Click to send an email to Shawn">
-								<AiOutlineMail className='text-2xl' />
+								<AiOutlineMail className='text-2xl' color='black' />
 							</a>
 						</div>
 {/* 						

@@ -11,13 +11,13 @@ interface Props
 const SkillItem: React.FC<Props> =({icon, name, altText}) =>
 {
 	return(
-		<div className='p-2 shadow shadow-black  hover:scale-105 ease-in duration-300'>
-			<div className='grid grid-cols-2 gap-4 justify-center items-center'>
-				<div className='m-auto text-[3rem]'>
+		<div className='p-2 text-black shadow-md shadow-gray-900 rounded bg-[#F4F3EE] hover:scale-105 ease-in duration-300'>
+			<div className='grid grid-rows-2 justify-center items-center'>
+				<div className='m-auto'>
 					<Image src={icon} alt={altText} width={50} height={50}/>
 				</div>
-				<div>
-					<p className='text-xl'>{name}</p>
+				<div className='m-auto'>
+					<p className='font-semibold md:text-xl'>{name}</p>
 				</div>
 			</div>
 		</div>
