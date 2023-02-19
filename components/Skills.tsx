@@ -30,7 +30,7 @@ import DockerLogo from '../public/assets/svg/docker-plain.svg'
 export default function Skills() 
 {
 	return(
-		<div id='skills' className='w-full lg:h-screen p-5'>
+		<div id='skills' className='w-full lg:h-full p-5'>
 			<div className='max-w-7xl py-16 mx-auto flex flex-col justify-center h-full'>
 				
 				<h2 className='py-4'>
@@ -40,7 +40,7 @@ export default function Skills()
 				<h3 className='py-4 text-lg'>
 					Languages
 				</h3>
-				<div className='grid sm:grid-cols-2 lg:grid-cols-4 gap-8'>
+				<div className='grid grid-cols-3 sm:grid-cols-4 lg:grid-cols-6 gap-8'>
 					<SkillItem
 						icon={HtmlLogo}
 						name='HTML5'
@@ -86,7 +86,7 @@ export default function Skills()
 				<h3 className='py-4 text-lg'>
 					Frameworks & Libraries
 				</h3>
-				<div className='grid sm:grid-cols-2 lg:grid-cols-4 gap-8'>
+				<div className='grid grid-cols-3 sm:grid-cols-4 lg:grid-cols-6 gap-8'>
 					<SkillItem
 						icon={ReactLogo}
 						name='React.js'
@@ -131,8 +131,8 @@ export default function Skills()
 					/>
 					<SkillItem
 						icon={BootstrapLogo}
-						name='Bootstrap 5'
-						altText='Bootstrap 5 logo'
+						name='Bootstrap'
+						altText='Bootstrap logo'
 					/>
 {/* 
 					<SkillItem
@@ -146,7 +146,7 @@ export default function Skills()
 				<h3 className='py-4 text-lg'>
 					Databases
 				</h3>
-				<div className='grid sm:grid-cols-2 lg:grid-cols-4 gap-8'>
+				<div className='grid grid-cols-3 sm:grid-cols-4 lg:grid-cols-6 gap-8'>
 					<SkillItem
 						icon={MysqlLogo}
 						name='MySQL'
@@ -167,7 +167,7 @@ export default function Skills()
 				<h3 className='py-4 text-lg'>
 					Technologies
 				</h3>
-				<div className='grid sm:grid-cols-2 lg:grid-cols-4 gap-8'>
+				<div className='grid grid-cols-3 sm:grid-cols-4 lg:grid-cols-6 gap-8'>
 					<SkillItem
 						icon={VisualStudioLogo}
 						name='Visual Studio'

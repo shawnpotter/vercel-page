@@ -7,8 +7,8 @@ import ProjectItem from './projects/ProjectItem'
 export default function Projects()
 {
 	return  (
-		<div id='projects' className='w-full'>
-			<div className='max-w-7xl mx-auto px-2 py-16'>
+		<div id='projects' className='w-full lg:h-full p-5'>
+			<div className='max-w-7xl mx-auto px-2 py-16 flex flex-col justify-center h-full'>
 				<h2 className='py-4'>Projects</h2>
 				
 				<div className='grid md:grid-cols-2 gap-8'>
@@ -37,7 +37,7 @@ export default function Projects()
 						backgroundImg={BookKeeper}
 						stack = {'Java, Spring Boot, Javascript, Bootstrap 5, MySQL'}
 						projectUrl={'mailto:shawnpotter.inquires@gmail.com'} 
-						buttonText='Request Repository Access'
+						buttonText='Request Repo Access'
 						altText=''
 						ariaLabel=''
 					/>
