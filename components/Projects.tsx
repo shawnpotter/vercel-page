@@ -3,30 +3,33 @@ import SnekLogo from '../public/assets/snek.png'
 import PricingApp from '../public/assets/pricingapp.png'
 import BookKeeper from '../public/assets/bookkeeper.png'
 import ProjectItem from './projects/ProjectItem'
+import Dashboard from '../public/assets/dashboard.png'
 
-export default function Projects()
-{
-	return  (
-		<div id='projects' className='w-full lg:h-full p-5'>
+export default function Projects() {
+	return (
+		<div
+			id='projects'
+			className='w-full lg:h-full p-5'
+		>
 			<div className='max-w-7xl mx-auto py-16 flex flex-col justify-center h-full'>
 				<h2 className='py-4'>Projects</h2>
-				
+
 				<div className='grid md:grid-cols-2 gap-8'>
-				
 					<ProjectItem
 						title='S.N.E.K. Bot'
 						backgroundImg={SnekLogo}
-						stack = 'Node.js, Discord.js, MongoDB'
-						projectUrl='https://github.com/ShawnPotter/snek-bot' 
+						stack='Node.js, Discord.js, MongoDB'
+						projectUrl='https://github.com/ShawnPotter/snek-bot'
 						buttonText='View Repository'
 						altText=''
 						ariaLabel=''
 					/>
+
 					<ProjectItem
 						title={'Canvas Pricing App'}
 						backgroundImg={PricingApp}
-						stack = {'Next.js, Solidity'}
-						projectUrl={'https://canvas-pricing-app.vercel.app/'} 
+						stack={'Next.js, Solidity'}
+						projectUrl={'https://canvas-pricing-app.vercel.app/'}
 						buttonText='View Page'
 						altText=''
 						ariaLabel=''
@@ -35,16 +38,23 @@ export default function Projects()
 					<ProjectItem
 						title={'Book Keeper'}
 						backgroundImg={BookKeeper}
-						stack = {'Java, Spring Boot, Javascript, Bootstrap 5, MySQL'}
-						projectUrl={'mailto:shawnpotter.inquires@gmail.com'} 
+						stack={'Java, Spring Boot, Javascript, Bootstrap 5, MySQL'}
+						projectUrl={'mailto:shawnpotter.inquires@gmail.com'}
 						buttonText='Request Repo Access'
 						altText=''
 						ariaLabel=''
 					/>
-					
-				</div>
-				
 
+					<ProjectItem
+						title={'Fullstack Dashboard'}
+						backgroundImg={Dashboard}
+						stack={'MongoDB, Express, React, Node, Material UI, '}
+						projectUrl={'https://admin-frontend-mhdp.onrender.com/'}
+						buttonText='View Page'
+						altText=''
+						ariaLabel=''
+					/>
+				</div>
 			</div>
 		</div>
 	)
