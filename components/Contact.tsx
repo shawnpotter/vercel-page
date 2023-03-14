@@ -15,6 +15,7 @@ export default function Contact() {
 		)
 	}
   return (
+
 	<div id='contact' className='w-full lg:h-5/6 p-5'>
 		<div className='mx-auto max-w-7xl py-16 flex flex-col justify-center h-full'>
 			<h2 className='py-4'>Contact Me</h2>
