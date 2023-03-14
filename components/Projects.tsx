@@ -48,7 +48,7 @@ export default function Projects() {
 					<ProjectItem
 						title={'Fullstack Dashboard'}
 						backgroundImg={Dashboard}
-						stack={'MongoDB, Express, React, Node, Material UI, '}
+						stack={'MongoDB, Express, React, Node, Material UI, Redux'}
 						projectUrl={'https://admin-frontend-mhdp.onrender.com/'}
 						buttonText='View Page'
 						altText=''
