@@ -24,7 +24,7 @@ export default function Projects() {
 						}
 						projectUrl={'https://admin-frontend-mhdp.onrender.com/'}
 						buttonText='View Page'
-						altText=''
+						altText='preview image of fullstack dashboard'
 						ariaLabel=''
 					/>
 
@@ -35,7 +35,7 @@ export default function Projects() {
 						info={'Currently hosted from local computer and not available 24/7'}
 						projectUrl='https://github.com/ShawnPotter/snek-bot'
 						buttonText='View Repository'
-						altText=''
+						altText='logo for S.N.E.K. Bot'
 						ariaLabel=''
 					/>
 
@@ -48,7 +48,7 @@ export default function Projects() {
 						}
 						projectUrl={'https://canvas-pricing-app.vercel.app/'}
 						buttonText='View Page'
-						altText=''
+						altText='preview image of webpage'
 						ariaLabel=''
 					/>
 
@@ -61,7 +61,7 @@ export default function Projects() {
 						}
 						projectUrl={'mailto:shawnpotter.inquires@gmail.com'}
 						buttonText='Request Access'
-						altText=''
+						altText='preview image of webpage'
 						ariaLabel=''
 					/>
 				</div>
