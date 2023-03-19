@@ -42,7 +42,7 @@ export default function Contact() {
 							<div>
 								<p className='uppercase pt-8 font-semibold'>Connect With Me</p>
 								<div className='flex items-center justify-between max-w-xs m-auto py-4 text-black'>
-									<div className='bg-[#0077b6] rounded-xl shadow-md shadow-gray-900 p-5 cursor-pointer hover:scale-105 hover:bg-[#0d4b6d] ease-in duration-200'>
+									<div className='bg-[#0077b6] rounded-xl shadow-md shadow-gray-900 p-4 sm:p-5 cursor-pointer hover:scale-105 hover:bg-[#0d4b6d] ease-in duration-200'>
 										<a
 											href='https://www.linkedin.com/in/shawn-potter/'
 											aria-label="Link to Shawn's LinkedIn page"
@@ -53,7 +53,7 @@ export default function Contact() {
 											/>
 										</a>
 									</div>
-									<div className='bg-[#0077b6] rounded-xl shadow-md shadow-gray-900 p-5 cursor-pointer hover:scale-105 hover:bg-[#0d4b6d] ease-in duration-200'>
+									<div className='bg-[#0077b6] rounded-xl shadow-md shadow-gray-900 p-4 sm:p-5 cursor-pointer hover:scale-105 hover:bg-[#0d4b6d] ease-in duration-200'>
 										<a
 											href='https://github.com/shawnpotter'
 											aria-label="Link to Shawn's GitHub page"
@@ -64,7 +64,7 @@ export default function Contact() {
 											/>
 										</a>
 									</div>
-									<div className='bg-[#0077b6] rounded-xl shadow-md shadow-gray-900 p-5 cursor-pointer hover:scale-105 hover:bg-[#0d4b6d] ease-in duration-200'>
+									<div className='bg-[#0077b6] rounded-xl shadow-md shadow-gray-900 p-4 sm:p-5 cursor-pointer hover:scale-105 hover:bg-[#0d4b6d] ease-in duration-200'>
 										<a
 											href='mailto:shawnpotter.inquires@gmail.com'
 											aria-label='Click to send an email to Shawn'
