@@ -16,9 +16,23 @@ export default function Projects() {
 
 				<div className='grid md:grid-cols-2 gap-8'>
 					<ProjectItem
+						title={'Fullstack Dashboard'}
+						backgroundImg={Dashboard}
+						stack={'MongoDB, Express, React, Node, Material UI, Redux'}
+						info={
+							'Currently hosted on OnRender for free. Please allow time for the API to boot up when loading the page'
+						}
+						projectUrl={'https://admin-frontend-mhdp.onrender.com/'}
+						buttonText='View Page'
+						altText=''
+						ariaLabel=''
+					/>
+
+					<ProjectItem
 						title='S.N.E.K. Bot'
 						backgroundImg={SnekLogo}
 						stack='Node.js, Discord.js, MongoDB'
+						info={'Currently hosted from local computer and not available 24/7'}
 						projectUrl='https://github.com/ShawnPotter/snek-bot'
 						buttonText='View Repository'
 						altText=''
@@ -29,6 +43,9 @@ export default function Projects() {
 						title={'Canvas Pricing App'}
 						backgroundImg={PricingApp}
 						stack={'Next.js, Solidity'}
+						info={
+							'Tech Demo. Must be connected to the Rinkeby Test Network to use'
+						}
 						projectUrl={'https://canvas-pricing-app.vercel.app/'}
 						buttonText='View Page'
 						altText=''
@@ -38,19 +55,12 @@ export default function Projects() {
 					<ProjectItem
 						title={'Book Keeper'}
 						backgroundImg={BookKeeper}
-						stack={'Java, Spring Boot, Javascript, Bootstrap 5, MySQL'}
+						stack={'Java, Spring, Javascript, Bootstrap 5, MySQL'}
+						info={
+							'School project. Full site is not available, but repository access available upon request'
+						}
 						projectUrl={'mailto:shawnpotter.inquires@gmail.com'}
-						buttonText='Request Repo Access'
-						altText=''
-						ariaLabel=''
-					/>
-
-					<ProjectItem
-						title={'Fullstack Dashboard'}
-						backgroundImg={Dashboard}
-						stack={'MongoDB, Express, React, Node, Material UI, Redux'}
-						projectUrl={'https://admin-frontend-mhdp.onrender.com/'}
-						buttonText='View Page'
+						buttonText='Request Access'
 						altText=''
 						ariaLabel=''
 					/>
