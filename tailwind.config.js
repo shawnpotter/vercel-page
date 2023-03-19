@@ -18,6 +18,8 @@ module.exports = {
 		},
 		screens: {
 			xs: '475px',
+			mdlg: '820px',
+			mdxl: '900px',
 			...defaultTheme.screens,
 		},
 	},

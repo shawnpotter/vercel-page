@@ -5,7 +5,7 @@ export default function About() {
 	return (
 		<div
 			id='about'
-			className='w-full lg:h-screen p-5 items-center'
+			className='w-full lg:h-full xl:h-screen p-5 items-center'
 		>
 			<div className='max-w-7xl pt-20 m-auto flex flex-col justify-center h-full'>
 				<div className='col-span-2'>
