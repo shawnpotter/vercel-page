@@ -13,7 +13,7 @@ export default function Navbar() {
 	}
 
 	return (
-		<div className='fixed bg-[#343a40] w-full h-14 shadow shadow-black z-[100] md:h-20'>
+		<div className='fixed bg-[#343a40] w-full h-12 shadow shadow-black z-[100] md:h-20'>
 			<div className='flex justify-end items-center w-full h-full px-2 2xl:px-16'>
 				{/* 				
 					<Image 
