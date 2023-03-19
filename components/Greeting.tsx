@@ -2,7 +2,6 @@ import React from 'react'
 import Image from 'next/image'
 import logoLarge from '../public/assets/shawnpotter.png'
 import { AiOutlineMail } from 'react-icons/ai'
-/* import { BsFillPersonLinesFill } from 'react-icons/bs'; */
 import { FaGithub, FaLinkedin } from 'react-icons/fa'
 
 export default function Greeting() {
@@ -49,7 +48,7 @@ export default function Greeting() {
 							</div>
 						</a>
 						<a
-							href='mailto:shawnpotter.inquires@gmail.com'
+							href='#contact'
 							aria-label='Click to send an email to Shawn'
 						>
 							<div className='bg-[#0077b6] shadow-md shadow-gray-900 rounded-xl p-5 cursor-pointer hover:scale-105 hover:bg-[#0d4b6d] ease-in duration-300'>
@@ -59,13 +58,6 @@ export default function Greeting() {
 								/>
 							</div>
 						</a>
-						{/* 						
-						<div className='shadow shadow-black p-5 cursor-pointer hover:scale-105 ease-in duration-300'>
-							<a href='/' aria-label="">
-								<BsFillPersonLinesFill className='text-2xl' />
-							</a>
-						</div> 
-*/}
 					</div>
 				</div>
 			</div>
