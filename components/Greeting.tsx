@@ -16,7 +16,7 @@ export default function Greeting() {
 					<Image
 						className='py-2 mx-auto'
 						src={logoLarge}
-						alt=''
+						alt='word logo'
 					/>
 					<h1 className='py-2 text-gray-100'>Software Engineer</h1>
 					<p className='py-4 text-gray-300 max-w-[70%] font-semibold m-auto'>
