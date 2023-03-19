@@ -12,10 +12,10 @@ export default function Home() {
 	return (
 		<div>
 			<Head>
-				<title>Shawn Potter</title>
+				<title>Shawn Potter | Software Engineer</title>
 				<meta
 					name='description'
-					content='Software Engineer Based In The Pacific Northwest'
+					content='Shawn Potter is a Software Engineer based in the Pacific Northwest'
 				/>
 				<link
 					rel='icon'
