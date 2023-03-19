@@ -15,14 +15,6 @@ export default function Navbar() {
 	return (
 		<div className='fixed bg-[#343a40] w-full h-12 shadow shadow-black z-[100] md:h-20'>
 			<div className='flex justify-end items-center w-full h-full px-2 2xl:px-16'>
-				{/* 				
-					<Image 
-					src="/../public/assets/navlogo.png" 
-					alt=""
-					width={100}
-					height={100}
-					/> 
-				*/}
 				<div>
 					<ul className='hidden md:flex font-semibold'>
 						<Link href='/'>
@@ -111,11 +103,6 @@ export default function Navbar() {
 									Projects
 								</li>
 							</Link>
-							{/* 
-							<Link href='contact'>
-								<li className='py-4 text-sm'>Contact</li>
-							</Link>
-							 */}
 						</ul>
 						<div className='pt-40'>
 							<p className='uppercase tracking-widest text-white font-semibold'>
@@ -148,11 +135,6 @@ export default function Navbar() {
 										/>
 									</div>
 								</Link>
-								{/* 								
-								<div className='rounded-full shadow shadow-black p-3 cursor-pointer hover:scale-105 ease-in duration-300'>
-									<BsFillPersonLinesFill/>
-								</div>
- */}
 							</div>
 						</div>
 					</div>
