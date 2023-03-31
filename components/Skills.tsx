@@ -26,20 +26,16 @@ import GithubLogo from '../public/assets/svg/github-original.svg'
 import PostmanLogo from '../public/assets/svg/getpostman-icon.svg'
 import DockerLogo from '../public/assets/svg/docker-plain.svg'
 
-
-export default function Skills() 
-{
-	return(
-		<div id='skills' className='w-full lg:h-full p-5'>
+export default function Skills() {
+	return (
+		<div
+			id='skills'
+			className='w-full lg:h-full p-5'
+		>
 			<div className='max-w-7xl py-16 mx-auto flex flex-col justify-center h-full'>
-				
-				<h2 className='py-4'>
-					Skills
-				</h2>
+				<h2 className='py-4'>Skills</h2>
 
-				<h3 className='py-4 text-lg'>
-					Languages
-				</h3>
+				<h3 className='py-4 text-lg'>Languages</h3>
 				<div className='grid grid-cols-3 sm:grid-cols-4 lg:grid-cols-6 gap-4 lg:gap-8'>
 					<SkillItem
 						icon={HtmlLogo}
@@ -71,7 +67,7 @@ export default function Skills()
 						name='PHP'
 						altText='PHP logo'
 					/>
-					<SkillItem
+					{/* 					<SkillItem
 						icon={CsLogo}
 						name='C#'
 						altText='C Sharp logo'
@@ -80,12 +76,10 @@ export default function Skills()
 						icon={PythonLogo}
 						name='Python'
 						altText='Python logo'
-					/>
+					/> */}
 				</div>
 
-				<h3 className='py-4 text-lg'>
-					Frameworks & Libraries
-				</h3>
+				<h3 className='py-4 text-lg'>Frameworks & Libraries</h3>
 				<div className='grid grid-cols-3 sm:grid-cols-4 lg:grid-cols-6 gap-4 lg:gap-8'>
 					<SkillItem
 						icon={ReactLogo}
@@ -117,7 +111,7 @@ export default function Skills()
 						name='Spring'
 						altText='Spring Framework logo'
 					/>
-{/* 
+					{/* 
 					<SkillItem
 						icon={AngularLogo}
 						name='AngularJS'
@@ -134,7 +128,7 @@ export default function Skills()
 						name='Bootstrap'
 						altText='Bootstrap logo'
 					/>
-{/* 
+					{/* 
 					<SkillItem
 						icon={GraphqlLogo}
 						name='GraphQL'
@@ -143,9 +137,7 @@ export default function Skills()
 */}
 				</div>
 
-				<h3 className='py-4 text-lg'>
-					Databases
-				</h3>
+				<h3 className='py-4 text-lg'>Databases</h3>
 				<div className='grid grid-cols-3 sm:grid-cols-4 lg:grid-cols-6 gap-4 lg:gap-8'>
 					<SkillItem
 						icon={MysqlLogo}
@@ -162,11 +154,9 @@ export default function Skills()
 						name='Hibernate'
 						altText='Hibernate database logo'
 					/>
- 				</div>
-				
-				<h3 className='py-4 text-lg'>
-					Technologies
-				</h3>
+				</div>
+
+				<h3 className='py-4 text-lg'>Technologies</h3>
 				<div className='grid grid-cols-3 sm:grid-cols-4 lg:grid-cols-6 gap-4 lg:gap-8'>
 					<SkillItem
 						icon={VisualStudioLogo}
@@ -199,7 +189,7 @@ export default function Skills()
 						altText='logo for Docker'
 					/>
 				</div>
-			</div>		
+			</div>
 		</div>
 	)
 }
