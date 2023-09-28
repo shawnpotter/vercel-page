@@ -10,7 +10,6 @@ interface Props {
 	projectUrl: string
 	buttonText: string
 	altText: string
-	ariaLabel: string
 }
 
 const ProjectItem: React.FC<Props> = ({
@@ -21,7 +20,6 @@ const ProjectItem: React.FC<Props> = ({
 	projectUrl,
 	buttonText,
 	altText,
-	ariaLabel,
 }) => {
 	return (
 		<div className='bg-[#495057] relative flex items-center h-auto w-full min-h-[350px] md:min-h-[500px] shadow-md shadow-gray-900 rounded-xl p-4 group hover:bg-gradient-to-r from-[#212529] to-[#495057]'>
@@ -29,7 +27,6 @@ const ProjectItem: React.FC<Props> = ({
 				className='m-auto group-hover:opacity-10'
 				src={backgroundImg}
 				alt={altText}
-				aria-label={ariaLabel}
 			/>
 			<div className='hidden group-hover:block absolute top-1/2 left-1/2 transform -translate-x-1/2 -translate-y-1/2 w-3/4 lg:w-1/2'>
 				<h3 className='text-2xl font-bold text-gray-50 tracking-widest text-center'>
