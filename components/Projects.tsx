@@ -2,7 +2,7 @@ import React from 'react'
 import SnekLogo from '../public/assets/snek.png'
 import PricingApp from '../public/assets/pricingapp.png'
 import BookKeeper from '../public/assets/bookkeeper.png'
-import StarfieldTools from '../public/assets/starfield-tools.png'
+import StarfieldTools from '../public/assets/starfieldtools.png'
 import ProjectItem from './projects/ProjectItem'
 import Dashboard from '../public/assets/dashboard.png'
 
