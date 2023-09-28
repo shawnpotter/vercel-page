@@ -19,7 +19,7 @@ export default function Projects() {
 					<ProjectItem
 						title={'Starfield Tools'}
 						backgroundImg={StarfieldTools}
-						stack={'Next.js, Typescript, React, TailwindCSS'}
+						stack={'Next.js, Typescript, React, Tailwind CSS'}
 						info={
 							'Page for a collection of personally build tools for use for players of Starfield.'
 						}
