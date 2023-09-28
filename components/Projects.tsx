@@ -2,6 +2,7 @@ import React from 'react'
 import SnekLogo from '../public/assets/snek.png'
 import PricingApp from '../public/assets/pricingapp.png'
 import BookKeeper from '../public/assets/bookkeeper.png'
+import StarfieldTools from '../public/assets/starfield-tools.png'
 import ProjectItem from './projects/ProjectItem'
 import Dashboard from '../public/assets/dashboard.png'
 
@@ -16,6 +17,17 @@ export default function Projects() {
 
 				<div className='grid md:grid-cols-2 gap-8'>
 					<ProjectItem
+						title={'Starfield Tools'}
+						backgroundImg={StarfieldTools}
+						stack={'Next.js, Typescript, React'}
+						info={
+							'Page for a collection of personally build tools for use for players of Starfield.'
+						}
+						projectUrl={'https://starfield-tools.vercel.app/'}
+						buttonText='View Page'
+						altText='preview image of starfield tools website'
+					/>
+					<ProjectItem
 						title={'Fullstack Dashboard'}
 						backgroundImg={Dashboard}
 						stack={'MongoDB, Express, React, Node, Material UI, Redux'}
@@ -25,7 +37,6 @@ export default function Projects() {
 						projectUrl={'https://admin-frontend-mhdp.onrender.com/'}
 						buttonText='View Page'
 						altText='preview image of fullstack dashboard'
-						ariaLabel=''
 					/>
 
 					<ProjectItem
@@ -36,7 +47,6 @@ export default function Projects() {
 						projectUrl='https://github.com/ShawnPotter/snek-bot'
 						buttonText='View Repository'
 						altText='logo for S.N.E.K. Bot'
-						ariaLabel=''
 					/>
 
 					<ProjectItem
@@ -49,7 +59,6 @@ export default function Projects() {
 						projectUrl={'https://canvas-pricing-app.vercel.app/'}
 						buttonText='View Page'
 						altText='preview image of webpage'
-						ariaLabel=''
 					/>
 
 					<ProjectItem
@@ -62,7 +71,6 @@ export default function Projects() {
 						projectUrl={'mailto:shawnpotter.inquires@gmail.com'}
 						buttonText='Request Access'
 						altText='preview image of webpage'
-						ariaLabel=''
 					/>
 				</div>
 			</div>
