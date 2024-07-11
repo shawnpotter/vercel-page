@@ -12,17 +12,22 @@ export default function About() {
 					<h2 className='py-4'>About Me</h2>
 					<p className='py-2'>
 						In June of 2022, I graduated with my Bachelor's in Software
-						Development. It's been a long road getting to this point and hasn't
-						always been an easy one. Adversity, nor a pandemic, could stop me
-						from finally achieving my goals.
+						Development. An avid gamer, I've was always interested in technology
+						and how it works. When I started learning to code in High School I
+						knew it was something I wanted to pursue.
 					</p>
 					<p className='py-2'>
 						Getting deeper into software development I realized that I had found
-						a niche, something that I can not just do, but be actively good at.
-						Since graduating I've spent my time expanding my tech stack and
-						working on projects. My focus has mostly been on front-end and
+						a niche in life, something that I can not just do, but be actively
+						good at. Since graduating I've spent my time expanding my tech stack
+						and working on projects. My focus has mostly been on front-end and
 						full-stack development with an emphasis on React.js. However, I've
 						also taken the time to learn other popular frameworks.
+					</p>
+					<p className='py-2'>
+						Currently I work as a contract software developer working with
+						Artificial Intelligence, where I work with AI models to perfect them
+						into useful tools for developers like me.
 					</p>
 					<div className='flex pt-20 justify-center md:mr-20 md:justify-end'>
 						<blockquote className='grid-row-2 text-lg italic p-3 bg-[#131518]/50 rounded-2xl w-full md:w-2/5 self-center font-roboto-slab'>

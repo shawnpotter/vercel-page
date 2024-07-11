@@ -6,7 +6,7 @@ import HtmlLogo from '../public/assets/svg/html5-original.svg'
 import JavaLogo from '../public/assets/svg/java-original.svg'
 import TsLogo from '../public/assets/svg/typescript-original.svg'
 import PhpLogo from '../public/assets/svg/php-original.svg'
-import CsLogo from '../public/assets/svg/csharp-original.svg'
+// import CsLogo from '../public/assets/svg/csharp-original.svg'
 import PythonLogo from '../public/assets/svg/python-original.svg'
 import ReactLogo from '../public/assets/svg/react-original.svg'
 import NextLogo from '../public/assets/svg/nextjs-original.svg'
@@ -67,16 +67,18 @@ export default function Skills() {
 						name='PHP'
 						altText='PHP logo'
 					/>
-					{/* 					<SkillItem
+					{/* 					
+					<SkillItem
 						icon={CsLogo}
 						name='C#'
 						altText='C Sharp logo'
 					/>
+					*/}
 					<SkillItem
 						icon={PythonLogo}
 						name='Python'
 						altText='Python logo'
-					/> */}
+					/>
 				</div>
 
 				<h3 className='py-4 text-lg'>Frameworks & Libraries</h3>
